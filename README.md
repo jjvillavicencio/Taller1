@@ -18,3 +18,5 @@ Los archivos Solido.java y Entrecortado.java son clases que extienden de Borde e
 En el archivo Demo.java se realiza la prueba del programa creando dos objetos y agregándole diferentes características a cada uno.
 
 El resultado es:
+
+![alt tag](http://i.imgur.com/4Td3Kks.png)
