@@ -9,19 +9,15 @@ package ec.edu.utpl.taller1;
  *
  * @author jjvillavicencio
  */
-public  class Circulo extends Figura{
+public abstract class Borde extends Figura{
+    protected Figura objetoBorde; 
 
-    private final double radio;
-
-    public Circulo(double radio) {
-        this.radio = radio;
-    }
-
-    @Override
-    public String dibujar() {
-        return "Circulo, Tamaño radio "+radio+" ";
+    public Borde(Figura objetoBorde) {
+        this.objetoBorde = objetoBorde;
     }
     
-    
+    public String dibujar(){
+        return objetoBorde.dibujar();
+    }
     
 }

@@ -9,7 +9,7 @@ package ec.edu.utpl.taller1;
  *
  * @author jjvillavicencio
  */
-public class CrearObjetoFactory implements CearObjetosFactoryMethod{
+public class CrearFiguraFactory implements CearFigurasFactoryMethod{
 
     @Override
     public Rectangulo crearRectangulo(int ladoA, int ladoB) {

@@ -9,7 +9,7 @@ package ec.edu.utpl.taller1;
  *
  * @author jjvillavicencio
  */
-public class Cuadrado extends Objeto{
+public class Cuadrado extends Figura{
     private double lado;
 
     public Cuadrado(double lado) {

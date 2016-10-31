@@ -9,7 +9,7 @@ package ec.edu.utpl.taller1;
  *
  * @author jjvillavicencio
  */
-public interface CearObjetosFactoryMethod {
+public interface CearFigurasFactoryMethod {
     public Rectangulo crearRectangulo(int ladoA, int ladoB);
     public Circulo crearCirculo(int radio);
     public Cuadrado crearCuadrado(int lado);

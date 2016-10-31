@@ -9,7 +9,7 @@ package ec.edu.utpl.taller1;
  *
  * @author jjvillavicencio
  */
-public  class Rectangulo extends Objeto{
+public  class Rectangulo extends Figura{
     private final int ladoA;
     private final int ladoB;
 

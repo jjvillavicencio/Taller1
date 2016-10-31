@@ -9,7 +9,13 @@ package ec.edu.utpl.taller1;
  *
  * @author jjvillavicencio
  */
-public abstract class Objeto {
-    public abstract String dibujar();
+public class Entrecortado extends Borde{
     
+    public Entrecortado(Figura objetoBorde) {
+        super(objetoBorde);
+    }
+    
+    public String dibujar(){
+        return objetoBorde.dibujar() + " Borde: Entrecortado";
+    }
 }

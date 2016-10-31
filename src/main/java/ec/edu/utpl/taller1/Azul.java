@@ -11,7 +11,7 @@ package ec.edu.utpl.taller1;
  */
 public class Azul extends Background{
     
-    public Azul(Objeto objetoColor) {
+    public Azul(Figura objetoColor) {
         super(objetoColor);
     }
     

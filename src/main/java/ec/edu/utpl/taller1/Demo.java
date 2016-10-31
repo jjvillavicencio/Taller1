@@ -11,14 +11,18 @@ package ec.edu.utpl.taller1;
  */
 public class Demo {
     public static void main(String[] args) {
-        CrearObjetoFactory factory = new CrearObjetoFactory();
+        CrearFiguraFactory factory = new CrearFiguraFactory();
         Cuadrado c = factory.crearCuadrado(5);
         Circulo cir = factory.crearCirculo(3);
         
-        Objeto cuadradoRojo = new Rojo(c);
-        Objeto circuloRojo = new Azul(cir);
-        System.out.println(cuadradoRojo.dibujar());
-        System.out.println(circuloRojo.dibujar());
+        Figura cuadradoRojo = new Rojo(c);
+        Figura cuadradoRojoEntrecortado = new Entrecortado(cuadradoRojo);
+        
+        Figura circuloRojo = new Azul(cir);
+        Figura circuloRojoSolido = new Solido(circuloRojo);
+        
+        System.out.println(cuadradoRojoEntrecortado.dibujar());
+        System.out.println(circuloRojoSolido.dibujar());
     }
     
 }

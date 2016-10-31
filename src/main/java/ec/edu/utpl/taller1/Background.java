@@ -9,10 +9,10 @@ package ec.edu.utpl.taller1;
  *
  * @author jjvillavicencio
  */
-public abstract class Background extends Objeto{
-    protected Objeto objetoColor; 
+public abstract class Background extends Figura{
+    protected Figura objetoColor; 
 
-    public Background(Objeto objetoColor) {
+    public Background(Figura objetoColor) {
         this.objetoColor = objetoColor;
     }
     
