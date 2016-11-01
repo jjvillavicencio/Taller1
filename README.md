@@ -20,3 +20,5 @@ Factory Method &amp; Decorator
 * En el archivo Demo.java se realiza la prueba del programa creando dos objetos y agregándole diferentes características a cada uno.
 
 ##Resultado:
+
+![alt tag](http://i.imgur.com/4Td3Kks.png)
